@@ -1,10 +1,10 @@
-package com..service;
+package com.gamestake.backend.service;
 
-import com..dto.mapper.EventMapper;
-import com..dto.request.EventRequestDTO;
-import com..dto.response.EventResponseDTO;
-import com..model.Event;
-import com..repository.EventRepository;
+import com.gamestake.backend.dto.mapper.EventMapper;
+import com.gamestake.backend.dto.request.EventRequestDTO;
+import com.gamestake.backend.dto.response.EventResponseDTO;
+import com.gamestake.backend.model.Event;
+import com.gamestake.backend.repository.EventRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
